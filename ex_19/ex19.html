@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios control select</title>
+</head>
+<body> 
+    <h2>seleccion de colores primarios</h2>
+    <from>
+        <!--caja de selecciones-->
+        <p>
+            <label>elija un color
+                <select name="selector" id="select" onchange="cambiarcolor()">
+                    <option value="">seleccione un color</option>
+                    <option value="seleccion: amarillo">amarillo</option>
+                    <option value="seleccion: azul">azul</option>
+                    <option value="seleccion: rojo">rojo</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>indice seleccionado
+                <input type="text" name="indice" id="text1">
+            </label>
+        </p>
+        <p>
+            <label> color seleccionado
+                <input type="text" name="color" id="text2">
+            </label>
+        </p>
+        <p>
+            <label> indicacion
+                <input type="text" name="indicacion" id="text3">
+            </label>
+        </p>
+
+        </from>
+    <script src="ex19.js"></script>
+</body>
+</html>

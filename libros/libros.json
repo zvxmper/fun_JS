@@ -1,0 +1,108 @@
+{
+    "biblioteca": [
+        {
+            "titulo": "Microsoft SQL Azre Administracion y desarrollo en la nube",
+            "editorial": "Alfaomega",
+            "edicion": "primera",
+            "isbn": "978-84-939450-0-8",
+            "autores":"Maria Perez Marques",
+            "codigo sena": ["769544000193"],
+            "descripcion": ""
+        },
+
+        {
+            "titulo": "Guia practica de XHTML, JavaScript y CSS",
+            "editorial": "Alfaomega",
+            "edicion": "primera",
+            "isbn": "978-607-707-222-5",
+            "autores":"Juan Carlos Oros Cabelo",
+            "codigo sena": ["769544000097"],
+            "descripcion": ""
+        },
+
+        {
+            "titulo": "Crear una pagina web desde cero",
+            "editorial": "Ediciones de la U",
+            "edicion": "primera",
+            "isbn": "978-958-762-097-9",
+            "autores":"Fernando Rodriguez Dieguez",
+            "codigo sena": ["769544000180"],
+            "descripcion": ""
+        },
+
+        {
+            "titulo": "PHP y MySQL tecnologia para el desarrollo de aplicaciones web",
+            "editorial": "Diaz de santos",
+            "edicion": "",
+            "isbn": "84-798-706-6",
+            "autores": {
+            "autor principal": "Angel Cobo",
+            "autor secundario": "Patricia Gomez",
+            "autor terciario": "Daniel Perez",
+            "autor cuarto":"Rocio Rocha"
+        },
+            "codigo sena": ["769544000244"],
+            "descripcion": ""
+        },
+
+        {
+            "titulo": "ingenieria de software",
+            "editorial": "pearso",
+            "edicion": "",
+            "isbn": "978-607-32-060-7",
+            "autores":"Ian Sommerville",
+            "codigo sena": ["769544000310"],
+            "descripcion": ""
+        },
+
+        {
+            "titulo": "Gestion de base de datos con SQl, MySQL y Access",
+            "editorial": "Alfaomega",
+            "edicion": "primera",
+            "isbn": "978-607-07-2-0",
+            "autores":"Borja Orbegazo Arana",
+            "codigo sena": ["7654000192"],
+            "descripcion": ""
+        },
+
+        {
+            "titulo": "TECNICAS DE INVESTIGACION DOCUMENTAL",
+            "editorial": "Editorial Trilas",
+            "edicion": "primera",
+            "isbn": "978-968-24-7266-4",
+            "autores":"Ismael Rodriuez campos",
+            "codigo sena": ["76954002713"],
+            "descripcion": ""
+        },
+
+        {
+            "titulo": "Diseño de un proyecto de investigacion: enfasis en estudios",
+            "editorial": "universidad pontificia blivariana",
+            "edicion": "primera",
+            "isbn": "978-958-6-696-699-7",
+            "autores":"Gloria Maria Angel Jimenez",
+            "codigo sena": ["769544003740"],
+            "descripcion": ""
+        },
+
+        {
+            "titulo": "Arquitectura de Computadoras",
+            "editorial": "Alfaomega",
+            "edicion": "",
+            "isbn": "978-987-1609-06-2",
+            "autores":"Irma Patricia Quiroga",
+            "codigo sena": ["769544000137"],
+            "descripcion": ""
+        },
+
+        {
+            "titulo": "Electronica  Basica",
+            "editorial": "Ediciones de la U",
+            "edicion": "primera",
+            "isbn": "978-958-8675-83-1",
+            "autores":"David Arboledas Brihuega",
+            "codigo sena": ["769544000497"],
+            "descripcion": ""
+ }
+]
+}

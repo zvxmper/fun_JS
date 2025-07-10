@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex37.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="pantalla" readonly>
+        <div class="botones">
+            <button onclick="insertar('7')">7</button>
+            <button onclick="insertar('8')">8</button>
+            <button onclick="insertar('9')">9</button>
+            <button onclick="insertar('7')">7</button>
+
+            <button onclick="borrar()">C</button>
+
+            <button onclick="insertar('4')">4</button>
+            <button onclick="insertar('5')">5</button>
+            <button onclick="insertar('6')">6</button>
+            <button onclick="insertar('*')">X</button>
+            <button onclick="insertar('Math.sqrt(')">✓</button>
+
+            <button onclick="insertar('1')">1</button>
+            <button onclick="insertar('2')">2</button>
+            <button onclick="insertar('3')">3</button>
+            <button onclick="insertar('-')">-</button>
+            <button onclick="insertar('Math.pow(')">^</button>
+
+            <button onclick="insertar('0')">0</button>
+            <button onclick="insertar('(')">(</button>
+            <button onclick="insertar(')')">)</button>
+            <button onclick="insertar('+')">+</button>
+            <button onclick="insertar('.')">.</button>
+            <button onclick="insertar('Math.PI(')">π</button>
+            <button onclick="insertar('Math.E(')">e</button>
+
+            <button onclick="insertar('Math.sin(')">sin</button>
+            <button onclick="insertar('Math.cos(')">cos</button>
+            <button onclick="insertar('Math.tan(')">tan</button>
+            <button onclick="insertar('Math.log10(')">log</button>
+            <button onclick="insertar('Math.log(')">ln</button>
+
+            <button class="igual" onclick="calcular()">=</button>
+        </div>
+    </div>
+
+    <script src="ex37.js"></script>
+</body>
+</html>

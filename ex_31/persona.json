@@ -1,0 +1,13 @@
+{
+    "persona": {
+    "nombre": "dylan",
+    "edad": 40,
+    "aprendiz": "false",
+    "residencia": {
+    "direccion":"carrera 25 # 38 - 65",
+    "ciudad": "palmira",
+    "departamento": "valle del cauca"
+    },
+    "telefono": "3281562174"
+    }
+}

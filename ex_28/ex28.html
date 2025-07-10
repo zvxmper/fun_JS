@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>selecciona el tiemo de alarma
+        <input type="number" name="tiempo" id="tiempoCronometro">
+    </label>
+
+    <button onclick="cuentaRegresiva()">iniciar</button><br>
+
+    <h4 id="txtTiempo">¡Tiempo finalizado!</h4>
+    <h4>tiempo restante: <span id="contador">0</span>segundos</h4>
+
+    <audio src="/ex_28/Alarma.mp3" id="audioAlarma" type="audio/mpeg" controls>
+        sonido no habilitado
+    </audio>
+
+    <script src="ex28.js"></script>
+</body>
+</html>

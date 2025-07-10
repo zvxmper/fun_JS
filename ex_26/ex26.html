@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrir enlaces o nuevas pestañas</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+
+    <h2>Funciones open y confirmar</h2>
+    <form>
+        <label>
+            abrir e una pestaña del navegador
+            <input type="button" value="abrir" onclick="pestan()"> <br> <br>
+
+            abrir en otra ventana del navegador
+            <input type="button" value="abrir"onclick="ventana()"> <br> <br>
+            <input type="button" value="salir"onclick="confirmar()">
+        </label>
+    </form>
+
+    <h2>redireccionamiento y locacon</h2>
+    <label>
+        abrir una pagina especifica 
+        <input type="button" value="abrir" onclick="redireccionar()">
+    </label> <br>
+
+    <!--Conteo y disponivilidad de caracteres-->
+    <h2>conteo de caracteres</h2>
+    <label>
+        <textarea name="texto" id="texto" rows="10" cols="40" maxlength="20">
+        </textarea>
+    </label>
+    <p>caracteres dispnibles: <span id="cantidad">20</span></p>
+
+    <script src="ex26.js"></script>
+</body>
+</html>

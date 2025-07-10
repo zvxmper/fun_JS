@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="ex27.css">
+</head>
+<body>
+    <button onclick="conmenzar()">alerta de 5 segundos</button> <br> <br>
+
+    <label> selecciona el tiempo 
+        <input type="number" name="tiempo" id="tiempoElegido">
+    </label>
+
+    <button onclick="iniciar()">activar</button> <br> <br>
+
+    <label>selecciona el tiempo
+        <input type="number" name="tiempo" id="tiempoCronometro">
+    </label>
+<button onclick="cuentaRegresiva()">iniciar</button> <br> <br>
+<h4 id="txtTiempo">¡tiempo Finializado!</h4>
+<h4>tiempo restante: <span id="contador">0</span>segundos</h4>
+
+    <script src="ex27.js"></script>
+</body>
+</html>
